@@ -1,0 +1,13 @@
+---
+version: '1'
+plugins:
+    - some_tms
+source_language: 'en-GB'
+target_languages:
+    - 'fr-FR'
+    - 'en-US'
+    - 'pt-BR'
+patterns:
+    - "client/**/en-GB.yaml"
+    - "client/**/en-GB.yml"
+
