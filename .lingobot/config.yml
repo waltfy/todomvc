@@ -1,0 +1,22 @@
+---
+version: '1'
+plugins:
+    - some_tms
+source_language: 'en-GB'
+target_languages:
+    - 'fr-FR'
+    - 'en-US'
+    - 'pt-BR'
+
+i18n:
+    patterns:
+        - "examples/react/**/*.html"
+        - "examples/react/**/*.js"
+        - "examples/react/**/*.jsx"
+
+l10n:
+    smartling:
+        project_id: 4155k1242
+        patterns:
+            - "client/**/en-GB.yaml"
+
